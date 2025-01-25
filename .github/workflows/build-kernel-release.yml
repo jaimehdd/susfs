@@ -5,6 +5,7 @@ permissions:
   actions: write   # Allows triggering actions
   
 on:
+  push:
   workflow_dispatch:
     inputs:
       build_a13_5_15:
